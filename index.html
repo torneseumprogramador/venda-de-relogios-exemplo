@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revenda de Relógios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -69,6 +70,31 @@
         <h1>Relógios Famosos</h1>
     </div>
     <div class="container">
+        <div id="carouselRelogios" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pexels-antonytrivet-9878600.jpg" class="d-block w-100" alt="Rolex Submariner">
+                </div>
+                <div class="carousel-item">
+                    <img src="pexels-nata-13156317.jpg" class="d-block w-100" alt="Omega Speedmaster">
+                </div>
+                <div class="carousel-item">
+                    <img src="pexels-sirflynn-17572540.jpg" class="d-block w-100" alt="Tag Heuer Carrera">
+                </div>
+                <div class="carousel-item">
+                    <img src="pexels-antonytrivet-9978940.jpg" class="d-block w-100" alt="Patek Philippe Nautilus">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselRelogios" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselRelogios" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
         <div class="relogio">
             <img src="pexels-antonytrivet-9878600.jpg" alt="Rolex Submariner">
             <div>
@@ -92,7 +118,7 @@
             <div>
                 <h2>Tag Heuer Carrera</h2>
                 <p>Um clássico para os amantes de automobilismo.</p>
-                <button onclick="window.location.href='https://api.whatsapp.com/send?phone=551199999999&text=Quero%20comprar%20o%20Tag%20Heuer%20Carrera'">Comprar</button>
+                <button onclick="window.location.href='https://api.whatsapp.com/send?phone=551199999999&text=Quero%20comprar%20o%20Tag Heuer Carrera'">Comprar</button>
             </div>
         </div>
 
@@ -105,5 +131,9 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
