@@ -7,46 +7,68 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ffdb00;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
         }
         .container {
-            width: 80%;
-            margin: auto;
+            width: 90%;
+            margin: 20px auto;
             padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .relogio {
-            border: 1px solid #ccc;
-            margin: 20px 0;
-            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
             display: flex;
             align-items: center;
+        }
+        .relogio:last-child {
+            border-bottom: none;
         }
         .relogio img {
             width: 150px;
             height: auto;
             margin-right: 20px;
+            border-radius: 8px;
         }
         .relogio h2 {
             margin: 0 0 10px;
+            font-size: 18px;
         }
         .relogio p {
             margin: 0 0 10px;
+            color: #555;
         }
         .relogio button {
-            background-color: #4CAF50;
+            background-color: #3483fa;
             color: white;
             padding: 10px 20px;
             border: none;
+            border-radius: 4px;
             cursor: pointer;
         }
         .relogio button:hover {
-            background-color: #45a049;
+            background-color: #2968c8;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="header">
         <h1>Relógios Famosos</h1>
-        
+    </div>
+    <div class="container">
         <div class="relogio">
             <img src="pexels-antonytrivet-9878600.jpg" alt="Rolex Submariner">
             <div>
